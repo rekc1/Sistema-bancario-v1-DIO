@@ -25,7 +25,7 @@ while menu != 4:
                 else:
                     print("Não foi possível realizar o saque por falta de saldo!")
             else:
-                print(f"Não é possível fazer saques superiores á {valor_maximo_saque}!")
+                print(f"Não é possível fazer saques acima de {valor_maximo_saque}!")
         else:
             print("Número limite de saques excedido!")
     elif menu == 3:
